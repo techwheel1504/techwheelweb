@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>TechWheel</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/TECHWHEEL LOGO.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!--<link href="forms/contact.php">-->
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+crossorigin="anonymous"
+/>
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+ <!-- <link href="assets/css/style.css" rel="stylesheet">-->
+ <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Vesperr
+  * Updated: Jan 09 2024 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  <style>
+    .pricing .box {
+  padding: 20px;
+  background: #ffffff;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #e0e0e0;
+  height: 40rem;
+}
+ 
+@media (max-width: 576px) {
+ .pricing .box {
+  height: auto;
+ }
+}
+
+
+.pricing .box h3 {
+  font-weight: 400;
+  padding: 15px;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #222222;
+}
+
+.pricing .box h4 {
+  font-size: 42px;
+  color: #3498db;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+}
+
+.pricing .box h4 sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.pricing .box h4 span {
+  color: #bababa;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.pricing .box ul {
+  padding: 0;
+  list-style: none;
+  color: #222222;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.pricing .box ul li {
+  padding-bottom: 16px;
+}
+
+.pricing .box ul i {
+  color: #3498db;
+  font-size: 18px;
+  padding-right: 4px;
+}
+
+.pricing .box ul .na {
+  color: #ccc;
+  text-decoration: line-through;
+}
+
+.pricing .box .btn-wrap {
+  padding: 15px;
+  text-align: center;
+}
+
+.pricing .box .btn-buy {
+  display: inline-block;
+  padding: 10px 40px 12px 40px;
+  border-radius: 50px;
+  border: 2px solid #3498db;
+  color: #3498db;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.pricing .box .btn-buy:hover {
+  background: #3498db;
+  color: #fff;
+}
+
+.pricing .recommended {
+  border-color: #3498db;
+}
+
+.pricing .recommended .btn-buy {
+  background: #3498db;
+  color: #fff;
+}
+
+.pricing .recommended .btn-buy:hover {
+  background: #2383c4;
+  border-color: #2383c4;
+}
+
+
+
+.contact .contact-about h3 {
+  font-size: 28px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #222222;
+}
+
+.contact .contact-about p {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Raleway", sans-serif;
+  color: #888;
+}
+
+.contact .social-links {
+  padding-bottom: 20px;
+}
+
+.contact .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #fff;
+  color: #3498db;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  border: 1px solid #3498db;
+}
+
+.contact .social-links a:hover {
+  background: #3498db;
+  color: #fff;
+}
+
+.contact .info {
+  color: #444444;
+}
+
+.contact .info i {
+  font-size: 32px;
+  color: #3498db;
+  float: left;
+  line-height: 1;
+}
+
+.contact .info p {
+  padding: 0 0 10px 42px;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+
+
+
+</style>
+
+ 
+</head>
+
+<body>
+  
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1><a href="index.html"><img src="assets/img/TECHWHEEL LOGO.png" alt="TECHWHEEL LOGO" /></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">Product</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a class="getstarted scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">TechWheel IT Solutions</h1>
+          <p style="font-size: 1rem; margin-left: 5px;" data-aos="fade-up" data-aos-delay="400">Basically we deal with Website Development and 
+            Id Card & Lanyard Printing Solutions. Our expert team with high level of expertise and 
+            experiance provide better quality of work with entire satisfaction.</p>
+          <div data-aos="fade-up" data-aos-delay="800">
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img justify-content-between" data-aos="fade-left" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" style="height: 420px; width: 500px;" class="img-fluid animated" alt="hero-img">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/clients/vvitlogo.png" class="img-fluid" alt="" data-aos="zoom-in">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/clients/swadeshilogo.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/clients/pcclogo.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="200">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/clients/abhalogo.png" style="height: 4rem; width: 9rem;" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="300">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/clients/delhiheart.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="400">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/clients/chatchaska.png" style="height: 4rem; width: 12rem;" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500">
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Clients Section -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>About Us</h2>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+            <h4>WHO WE ARE?</h4>
+            <p>
+              TechWheel is basically IT & Printing Services providing company. 
+              TechWheel takes pride in offering the most knowledgeable staffs, 
+              quality services, and a personal approach with real solutions for 
+              all of your digital needs. Our design specialists are experts in 
+              the various forms of digital output.
+            </p>
+            
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <h4>OUR VISION</h4>
+            <p>
+              To provide best IT services and premium quality print in most satisfying price. 
+              To ensure the client satifcation we work with world class, high quality features. 
+              At Techwheel our goal is to make the customer happy and satisfy so, we continuously 
+              try to make it happen.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container px-4">
+
+        <div class="row gx-5">
+          <div class="image col-xl-6 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
+            <img src="assets/img/success.jpg" alt="" class="img-fluid">
+          </div>
+
+          <div class="col-xl-6 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay="300">
+            <div class="content d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-emoji-smile"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="70" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Happy Clients</strong> </p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-journal-richtext"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Projects Working</strong></p>
+                  </div>
+                </div>
+
+               
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-check2-all"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Project Completed</strong> </p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-stopwatch"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Project Upcoming</strong> </p>
+                  </div>
+                </div>
+
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Services</h2>
+          <h4>What We Do?</h4>
+          <p>Basically we deal with Printing Services, Website Development & Graphic Designing. 
+            Our expert team with high level of expertise and experiance provide better quality 
+            of work with entire satisfaction.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bi bi-printer"></i></div>
+              <h4 class="title"><a href="">Id Card & Lanyard Printing</a></h4>
+              <p class="description">
+                With wide range of variety we provide printing solutions in both large and small format. 
+                With our world class, high quality printers we provide the best premium quality prints 
+                for our clients at the most staifying price.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="bi bi-image"></i></div>
+              <h4 class="title"><a href="">Graphic Designing</a></h4>
+              <p class="description">
+                With high level of graphic design skill our expert team create very good desgin, 
+                that fullfill the client requirement. Basically we use design tool CorelDraw (V-23), 
+                Photoshop, Illustrator and InDesign.
+
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bi bi-code-slash"></i></div>
+              <h4 class="title"><a href="">Website Development</a></h4>
+              <p class="description">
+                We develope fast, responsive, static and dynamic website for the client. 
+                Basically we use HTML5, CSS, JavaScript, Wordpress, ReactJS.
+              </p>
+            </div>
+          </div>
+
+          
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= More Services Section ======= -->
+    <section id="more-services" class="more-services">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card" style='background-image: url("assets/img/idcardlanyardservices.jpg");' data-aos="fade-up" data-aos-delay="100">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Id Card & Lanyard</a></h5>
+                <p class="card-text">Premium quality of PVC and Fusing Id Cards & Fully Custumized Multicolored Lanyard </p>
+                <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Explore Now</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="card" style='background-image: url("assets/img/graphicdesignserices.jpg");' data-aos="fade-up" data-aos-delay="200">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Graphic Designing</a></h5>
+                <p class="card-text">With high level of graphic design skill our expert team 
+                  create very good desgin, that fullfill the client requirement. </p>
+                <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Explore Now</a></div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch mt-4">
+            <div class="card" style='background-image: url("assets/img/websitesmoreservices.jpg");' data-aos="fade-up" data-aos-delay="100">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Website Development</a></h5>
+                <p class="card-text">We develope fast, responsive, static and dynamic website for the client.</p>
+                <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Explore Now</a></div>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+
+      </div>
+    </section><!-- End More Services Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Technology</h2>
+          <p>Softcore Tools We Are Working With</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-3 col-md-4">
+            <div class="icon-box">
+              
+            <iconify-icon icon="file-icons:coreldraw-alt" style="font-size: 2rem; color: #29cc61;"></iconify-icon>
+              <h3><a href="#">CorelDraw</a></h3>
+            </div>
+            </div>
+         
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box">
+              <iconify-icon icon="bi:filetype-psd" style="font-size: 2rem; color: #2600ff;"></iconify-icon>
+              <h3><a href="#">Adobe Phtoshop</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box">
+              <iconify-icon icon="logos:figma" style="font-size: 2rem;"></iconify-icon>
+              <h3><a href="#">Figma</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <iconify-icon icon="logos:bootstrap" style="font-size: 2rem;"></iconify-icon>
+              <h3><a href="#">Bootstrap</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <iconify-icon icon="logos:react" style="font-size: 2rem;"></iconify-icon>
+              <h3><a href="#">React</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <iconify-icon icon="logos:javascript" style="font-size: 2rem;"></iconify-icon>
+              <h3><a href="#">JavaScript</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <iconify-icon icon="logos:nodejs" style="font-size: 2rem;"></iconify-icon>
+              <h3><a href="#">NodeJS</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <iconify-icon icon="logos:aws" style="font-size: 2rem;"></iconify-icon>
+              <h3><a href="#">AmazonWebServices</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <iconify-icon icon="ic:baseline-wordpress" style="font-size: 2rem; color: #008cff;"></iconify-icon>
+              <h3><a href="#">Wordpress</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <iconify-icon icon="vscode-icons:file-type-firebase" style="font-size: 2rem;"></iconify-icon>
+              <h3><a href="#">Firebase</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <iconify-icon icon="devicon:php" style="font-size: 2rem;"></iconify-icon>
+              <h3><a href="#">PHP</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <iconify-icon icon="devicon:html5" style="font-size: 2rem;"></iconify-icon>
+              <h3><a href="#">HTML</a></h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Testimonials</h2>
+          <p>Our Happy Clients</p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/bmmishra.jpg" class="testimonial-img" alt="">
+                  <h3>Dr. B M Mishra</h3>
+                  <h4>Dentist &amp; Founder</h4>
+                  <h6>Abha Oral Care</h6>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Always reliable and fast, even after I leave for the day, 
+                    I can always count on you guys to get requests done. Thank you!
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/profile-icon-png-25.jpg"" class="testimonial-img" alt="">
+                  <h3>Mr. Sudhanshu Karna</h3>
+                  <h4>Owner</h4>
+                  <h6>Karna Enterprises &amp; Chaat Ka Chaska </h6>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    I am impressed with the key employees you have hired as they are taking care 
+                    of business “Lorenzo” style...as if you were doing our work yourself. Keep it up!
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/rajeshmishra.jpg" class="testimonial-img" alt="">
+                  <h3>Mr. Rajesh Mishra</h3>
+                  <h4>Secretary</h4>
+                  <h6>Vidya Vihar Trust </h6>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    I have used Company Printing both personally an professionally and 
+                    have always been more than satisfied with the final result.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/swadeshiprincipal.jpg" class="testimonial-img" alt="">
+                  <h3>Dr. Vinay Kumar</h3>
+                  <h4>Principal</h4>
+                  <h6>Swadeshi College of Education, Purnea </h6>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    TechWheel offers outstanding customer service. They always do what they say and take care of my 
+                    projects in a timely manner. I can always depend on TechWheel! 
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/profile-icon-png-25.jpg"" class="testimonial-img" alt="">
+                  <h3>Mr. Aditya Kejriwal</h3>
+                  <h4>Director</h4>
+                  <h6>Kejriwal Trust </h6>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    What sets Formax apart is the people who work there. They understand that 
+                    we are serving our community and students, so they offer fair prices and 
+                    excellent customer service. 
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/rajnikant.jpg" class="testimonial-img" alt="">
+                  <h3>Mr. Rajnikant</h3>
+                  <h4>Architect & Founder</h4>
+                  <h6>R K Architect </h6>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    TechWheel Printing was an excellent choice for our printing project. 
+                    Having our catalog printed was our first large printing project. 
+                    They are very responsive and helpful. 
+                    
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Printing Product</h2>
+          <p>Here is the glimpses of Finest & Premium quality of Products.</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">Id Card & Lanyard</li>
+              <li data-filter=".filter-card">Sublimation Products</li>
+              
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="400">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Multicolored Lanyard </h4>
+                <p>Level up your id with fully customized premium quality multicolored lanyard. 
+                  
+                </p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Viw Image"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Premium Id Cards</h4>
+                <p>Premium quality of PVC and Fusing Id Cards.</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Premium ID Card"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Fancy Id Holders</h4>
+                <p>Metal Holder, Plastic Holder, Transparent Holder, Plate Holder and Many More... </p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Id Holder"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>T-Shirts Printing</h4>
+                <p>Brand your organization with fully customized premium quality printed T-Shirts</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="T-Shirts"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Coffee Mug Printing</h4>
+                <p>Brand your organization with fully customized premium quality printed Coffee Mugs</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="coffee Mug"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Bagpack Printing</h4>
+                <p>Brand your organization with fully customized premium quality printed Bagpack</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Bagpack"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+   <!-- ======= Pricing Section ======= -->
+   <section id="pricing" class="pricing">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Websites</h2>
+        <p>Get fully featured dynamic website and reach to more clients.</p>
+         <h3 style="color: #d81900; padding-top: 1rem;">Starting From ₹10000</h3> 
+          
+          
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6">
+          <div class="box recommended" data-aos="zoom-in-right" data-aos-delay="200">
+            <h3>Static Website</h3>
+            <!--<span>
+            <span style="font-size: large; color: #222222;">starting from</span> 
+            <h4>₹10000</h4>
+            </span>-->
+            <p style="color: #3498db; font-size: 1.25rem;">
+              <u>Key Feature</u><i class="bi bi-hand-thumbs-up"></i> </p>
+            <ul>
+              <li>Single Landing Page Website</li>
+              <li>Based on HTML, CSS, JavaScript & PHP</li>
+              <li>Fast and 100% Responsive with all devices</li>
+              <li>Free SSL, Domain & Maintenance for first year</li>
+              <li><span style="font-weight: 600;"> Free Additional Features -</span> One Contact Form</li>
+              <li style="color: rgb(255, 0, 0);"><strong>Note:</strong> For Ohter feature like chat boat, whats up inegration and multi page website extra charge will be applicable </li>
+            </ul>
+            <br/>
+            <div class="btn-wrap">
+              <a href="#" class="btn-buy">Order Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+          <div class="box recommended" data-aos="zoom-in" data-aos-delay="100">
+            <h3>React Website</h3>
+            <!--<span>
+            <span style="font-size: large; color: #222222;">starting from</span> 
+            <h4>₹20000</h4></span>-->
+            <p style="color: #3498db; font-size: 1.25rem;">
+              <u>Key Feature</u><i class="bi bi-hand-thumbs-up"></i></p>
+            <ul>
+              <li>Single Landing Page Website</li>
+              <li>Fully Functional with JavaScript</li>
+              <li>Based on HTML, CSS, JavaScript, React & Firbase</li>
+              <li>Very Fast and 100% Responsive with all devices</li>
+              <li>Free SSL, Domain & Maintenance for first year</li>
+              <li><span style="font-weight: 600;"> Free Additional Features -</span> One Contact Form</li>
+              <li style="color: rgb(255, 0, 0);"><strong>Note:</strong> For Ohter feature like chat boat, whats up inegration and multi page website additional charge will be applicable </li>
+            </ul>
+            <div class="btn-wrap">
+              <a href="#" class="btn-buy">Order Now</a>
+            </div>
+          </div>
+        </div>
+      
+      
+        <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+          <div class="box recommended" data-aos="zoom-in" data-aos-delay="100">
+            <h3>Dynamic Webiste</h3>
+            <!--<span>
+            <span style="font-size: large; color: #222222;">starting from</span> 
+            <h4>₹30000</h4></span>-->
+            <p style="color: #3498db; font-size: 1.25rem;">
+              <u>Key Feature</u><i class="bi bi-hand-thumbs-up"></i></p>
+            <ul>
+              <li>10 Page Website</li>
+              <li>Based on HTML, CSS, JavaScript, Wordpress & Woocommerce</li>
+              <li>Very Fast and 100% Responsive with all devices</li>
+              <li>Free SSL, Domain & Maintenance for first year</li>
+              <li>Database based product section</li>
+              <li><span style="font-weight: 600;"> Free Additional Features -</span> One Contact Form & Chat Boat</li>
+           
+              <li style="color: rgb(255, 0, 0);"><strong>Note:</strong> For Ohter features and more pages additional charge will be applicable </li>
+            </ul>
+            <br/>
+            <div class="btn-wrap">
+              <a href="#" class="btn-buy">Order Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+          <div class="box recommended" data-aos="zoom-in" data-aos-delay="100">
+            <h3>E-Commerce Website</h3>
+            <!--<span>
+            <span style="font-size: large; color: #222222;">starting from</span> 
+            <h4>₹50000</h4></span>-->
+            <p style="color: #3498db; font-size: 1.25rem;">
+              <u>Key Feature</u><i class="bi bi-hand-thumbs-up"></i></p>
+            <ul>
+              <li>10 Page Website</li>
+              <li>Based on HTML, CSS, JavaScript, Wordpress & Woocommerce</li>
+              <li>Very Fast and 100% Responsive with all devices</li>
+              <li>Free SSL, Domain & Maintenance for first year</li>
+              <li><span style="font-weight: 600;"> Free Additional Features -</span> One Contact Form, Chat Boat, Whats up and Payment Integration, </li>
+              <li style="color: rgb(255, 0, 0);"><strong>Note:</strong> For Ohter features and more pages additional charge will be applicable </li>
+            </ul>
+            <br/>
+            <div class="btn-wrap">
+              <a href="#" class="btn-buy">Order Now</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Pricing Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Team</h2>
+          <p>Let's Meet Our Member</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="assets/img/sudhakarkarna.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Er. Sudhakar Karna</h4>
+                <h6>Co-Founder</h6>
+                <span style="color: rgb(0, 116, 0);">Quality & Machinary Operation Heard</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <div class="member-img">
+                <img src="assets/img/vijaysingh.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Er. Vijay Singh</h4>
+                <h6>Co-Founder</h6>
+                <span style="color: rgb(0, 116, 0);">IT Opeation Head</span>
+              </div>
+            </div>
+          </div>
+
+          
+
+          
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    
+
+    
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Contact Us</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="contact-about">
+              <h3>TechWheel</h3>
+              <p>Once fill and submit this form, soon we will get into touch with you. </p>
+              <div class="social-links">
+                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="info">
+              
+
+              <div>
+                <i class="ri-mail-send-line"></i>
+                <p>info@techwheelit.com</p>
+              </div>
+
+              <div>
+                <i class="ri-phone-line pt-2"></i>
+                <p>+91-9905497947<br/>+91-7909067347</p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="info">
+              <i class="ri-map-pin-line pt-2"></i>
+              <p>Teacher's Colony, Near Rajni Chowk<br/>Purnea, Bihar, Pin-854301</p>
+            </div>
+            <div style="border-radius: 10px;">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.118664474045!2d87.48541307410312!3d25.766643758403298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eff910dc1db88d%3A0xd0b1c6299aead9f1!2sTeachers%20Colony%2C%20Vivekanand%20Colony%2C%20Purnia%2C%20Bihar%20854302!5e0!3m2!1sen!2sin!4v1709747993451!5m2!1sen!2sin" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-12 shadow p-3 mb-5 bg-light rounded" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-md-12">
+              
+              <div class="form-group">
+                
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter name"
+                />
+              </div>
+              <div class="form-group">
+                
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter email"
+                />
+              </div>
+              <div class="form-group">
+                
+                <input
+                  type="text"
+                  class="form-control"
+                  id="contactno"
+                  placeholder="Enter Contact No."
+                />
+              </div>
+              <div class="form-group">
+               
+                <input
+                  type="text"
+                  class="form-control"
+                  id="subject"
+                  placeholder="Enter Subject."
+                />
+              </div>
+              <div class="form-group">
+                
+                <textarea class="form-control" id="message" rows="3" placeholder="Type Your Message Here...."></textarea>
+              </div>
+              <button class="btn btn-primary" onclick="sendMail()">Submit</button>
+              
+            </div>
+
+          </div>
+
+        </div>
+      
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6 text-lg-left text-center">
+          <div class="copyright">
+            &copy; Copyright <strong>TechWheel</strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/vesperr-free-bootstrap-template/ -->
+            Designed by <a href="https://techwheelit.com/">TechWheel</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+            <a href="#intro" class="scrollto">Home</a>
+            <a href="#about" class="scrollto">About</a>
+            <a href="#portfolio" class="scrollto">Product</a>
+            <a href="#services" class="scrollto">Services</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  
+  <script src="contact.js"></script>
+
+  <script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+  ></script>
+  <script type="text/javascript">
+  (function () {
+    emailjs.init("L-V_MaC8MxrMQ56Xl");
+  })();
+  </script>
+</body>
+
+</html> 
+                
+
+
+
+
